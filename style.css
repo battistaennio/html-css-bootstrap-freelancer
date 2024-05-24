@@ -1,0 +1,38 @@
+/* regole generali */
+.box{
+    /* debug */
+    background-color: bisque;
+    min-height: 30px;
+}
+
+
+/* regole header */
+header{
+    background-color: #2c3e50;
+}
+
+#header_container{
+    height: 70px;
+}
+
+#desktop-nav{
+    display: none;
+}
+
+#desktop-nav li{
+    /* debug */
+    background-color: aqua;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+}
+
+
+/* regole visualizzazione desktop */
+@media screen and (min-width:959px) {
+
+    #desktop-nav{
+        display: block;
+    }
+        
+}
