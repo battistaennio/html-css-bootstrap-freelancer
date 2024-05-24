@@ -1,4 +1,8 @@
 /* regole generali */
+body{
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
+
 .box{
     /* debug */
     background-color: bisque;
@@ -25,6 +29,21 @@ header{
     width: 5px;
     height: 5px;
     display: inline-block;
+}
+
+/* regole jumbotron */
+#jumbotron{
+    background-color: #1abc9c;
+    min-height: 300px;
+}
+
+#jumbotron .box{
+    text-align: center;
+    margin: 10px 0;
+}
+
+#jumbotron img{
+    width: 200px;
 }
 
 
