@@ -38,7 +38,6 @@ header{
 }
 
 #jumbotron .box{
-    text-align: center;
     margin: 10px 0;
 }
 
@@ -46,9 +45,14 @@ header{
     width: 200px;
 }
 
+/* regole portfolio */
+#portfolio_container .box{
+    margin: 10px 0;
+}
+
 
 /* regole visualizzazione desktop */
-@media screen and (min-width:959px) {
+@media screen and (min-width:992px) {
 
     #desktop-nav{
         display: block;
