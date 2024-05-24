@@ -7,6 +7,11 @@ body{
     /* debug */
     background-color: bisque;
     min-height: 30px;
+    margin: 10px 0;
+}
+
+.background_green{
+    background-color: #1abc9c;
 }
 
 
@@ -33,12 +38,7 @@ header{
 
 /* regole jumbotron */
 #jumbotron{
-    background-color: #1abc9c;
     min-height: 300px;
-}
-
-#jumbotron .box{
-    margin: 10px 0;
 }
 
 #jumbotron img{
@@ -46,9 +46,6 @@ header{
 }
 
 /* regole portfolio */
-#portfolio_container .box{
-    margin: 10px 0;
-}
 
 
 /* regole visualizzazione desktop */
