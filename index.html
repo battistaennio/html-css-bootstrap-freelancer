@@ -19,50 +19,31 @@
 <body>
     
     <!-- header position-fixed -->
-    <header>
+    <header class="fixed-top">
 
-        <div class="container container-md container-lg">
-
-            <div id="header_container" class="row justify-content-between align-items-center">
-
-                <div class="col-auto">
-                    <div class="box">
-                        START BOOTSTRAP
-                    </div>
-                </div>
-
-                <div class="col-auto">
-                    <div class="box">
-
-                        <div id="hamburger">
-
-                        </div>
-
-                        <div id="desktop-nav" class="text-end d-none d-lg-block">
-                            <nav>
-                                <ul>
-                                    <li>
-
-                                    </li>
-
-                                    <li>
-
-                                    </li>
-
-                                    <li>
-
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-
-                    </div>
-                </div>
-
+        <!-- NAV BAR di BootStrap link https://stackblitz.com/run?file=index.html-->
+        <nav class="navbar navbar-expand-md">
+            <div class="container container-lg">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-md-grow-0" id="navbarNav">
+                <ul class="navbar-nav text-end">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-
-        </div>
-
+          </nav>
+      
     </header>
 
     <!-- jumbotron -->
@@ -184,12 +165,14 @@
                     </div>
 
                     <div class="col-8 col-md-5 col-lg-4 text-start">
-                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                        <p>
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
                         </p>
                     </div>
 
                     <div class="col-8 col-md-5 col-lg-4 text-start">
-                        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                        <p>
+                            Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                         </p>
                     </div>
 
@@ -309,6 +292,10 @@
         </div>
 
     </footer>
+
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
