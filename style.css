@@ -16,6 +16,10 @@ section{
     background-color: #1abc9c;
 }
 
+h1{
+    margin: 20px 0;
+}
+
 h2{
     margin: 20px 0;
 }
@@ -62,6 +66,9 @@ header{
     --bs-navbar-padding-y: 1rem;
 }
 
+.navbar-toggler-icon{
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");}
+
 .navbar-brand, .nav-link{
     color: white;
     text-transform: uppercase;
@@ -71,9 +78,18 @@ header{
     color: #1abc9c;
 }
 
+.navbar-toggler{
+    border: var(--bs-border-width) solid white;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
 /* regole jumbotron */
 #jumbotron{
     padding-top: 105px;
+    padding-bottom: 30px;
 }
 
 #jumbotron span{
@@ -95,7 +111,12 @@ header{
     border-radius: 15px;
 }
 
-#portfolio .box{
+.box-hover{
+    margin: 15px 0;
+}
+
+
+#portfolio .box-hover{
     position: relative;
     background-color: #1abc9c;
     border-radius: 15px;
@@ -103,11 +124,11 @@ header{
 
 .box-hover i{
     display: none;
-    font-size: 4rem;
+    font-size: 60px;
     position: absolute;
     top: 50%;
     right: 50%;
-    translate: 65% -50%;
+    translate: 50% -50%;
     color: white;
 }
 
@@ -116,9 +137,8 @@ header{
     cursor: pointer;
 }
 
-#portfolio img:hover{
+#portfolio .box-hover:hover img{
     filter: opacity(0.5);
-    display: block;
     cursor: pointer;
 }
 
@@ -130,8 +150,12 @@ header{
 .form-control{
     border-radius: 0;
     border: none;
-    border-bottom: 1px solid #ced4da;
+    border-bottom: 2px solid #ced4da;
     margin: 10px 0;
+}
+
+.form-control:focus{
+    border-color: #1abc9c;
 }
 
 .form-control:focus{
