@@ -52,6 +52,7 @@ button{
     color: white;
     padding: 10px;
     margin: 20px 0;
+    background-color: #1abc9c;
 }
 
 
@@ -75,7 +76,7 @@ header{
 
 /* regole jumbotron */
 #jumbotron{
-    margin-top: 70px;
+    padding-top: 105px;
 }
 
 #jumbotron span{
@@ -103,8 +104,6 @@ header{
     border-radius: 15px;
 }
 
-
-
 .box-hover i{
     display: none;
     font-size: 4rem;
@@ -125,6 +124,23 @@ header{
     display: block;
     cursor: pointer;
 }
+
+/* regole contact me */
+#contact-me_container{
+    color: #2c3e50;
+}
+
+.form-control{
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    margin: 10px 0;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
 
 /* regole footer */
 footer{
