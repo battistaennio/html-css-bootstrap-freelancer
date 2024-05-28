@@ -31,7 +31,7 @@ h2{
 
 .fake-border{
     display: inline-block;
-    height: 5px;
+    height: 4px;
     width: 10%;
     background-color: white;
     margin-bottom: 8px;
@@ -62,19 +62,21 @@ header{
     background-color: #2c3e50;
 }
 
+    /* regole nav bar di Bootstrap */
 .navbar{
     --bs-navbar-padding-y: 1rem;
 }
 
 .navbar-toggler-icon{
-background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");}
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 
 .navbar-brand, .nav-link{
     color: white;
     text-transform: uppercase;
 }
 
-.navbar-brand:hover, .nav-link:hover{
+.navbar-brand:hover, .nav-link:hover, .nav-link:focus{
     color: #1abc9c;
 }
 
@@ -88,7 +90,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30
 
 /* regole jumbotron */
 #jumbotron{
-    padding-top: 105px;
+    padding-top: 100px;
     padding-bottom: 30px;
 }
 
@@ -132,6 +134,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30
     color: white;
 }
 
+    /* regole effetto hover su img */
 #portfolio .box-hover:hover i{
     display: block;
     cursor: pointer;
@@ -194,7 +197,7 @@ footer .box{
     background-color: #2c3e50;
 }
 
-a{
+footer a {
     color: #1abc9c;
     text-decoration: none;
 }

@@ -31,13 +31,13 @@
               <div class="collapse navbar-collapse flex-md-grow-0" id="navbarNav">
                 <ul class="navbar-nav text-end">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact-me">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -81,9 +81,9 @@
     <main>
 
         <!-- portfolio -->
-        <section>
+        <section id="portfolio">
 
-            <div id="portfolio" class="container">
+            <div class="container">
                 
                 <div class="row justify-content-center text-center">
 
@@ -147,7 +147,7 @@
         </section>
 
         <!-- about -->
-        <section class="background_green">
+        <section id="about" class="background_green">
            
             <div class="container">
 
@@ -190,7 +190,7 @@
         </section>
 
         <!-- contact me -->
-        <section>
+        <section id="contact-me">
 
             <div id="contact-me_container" class="container">
 
@@ -209,10 +209,10 @@
                     <!-- Form di Bootstrap -->
                     <div class="col-8 text-start">
                         <form action="#" method="get">
-                            <input type="text" class="form-control" placeholder="First name" required>
-                            <input type="email" class="form-control" placeholder="Email Address" required>
-                            <input type="text" class="form-control" placeholder="Phone Number" required>
-                            <textarea class="form-control" placeholder="Message" rows="7"></textarea>
+                            <input type="text" class="form-control" name="name" placeholder="Name" required>
+                            <input type="email" class="form-control" name="email" placeholder="Email Address" required>
+                            <input type="text" class="form-control" name="phone-number" placeholder="Phone Number" required>
+                            <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
 
                             <button type="submit">
                                 Send
@@ -294,7 +294,7 @@
     </footer>
 
 
-    <!-- JavaScript -->
+    <!-- JavaScript Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
